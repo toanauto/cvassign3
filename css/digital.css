@@ -1,0 +1,16 @@
+.number {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #6c757d;
+  border-radius: 50%;
+  background-color: rgba(164, 101, 223, 0.745);
+  color: #ffff;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.even {
+  border-bottom: 1px dashed rgb(9, 131, 133);
+}

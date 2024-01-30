@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <!-- Banner -->
+    <section id="banner">
+      <div class="img-banner"></div>
+      <div class="text-banner">
+        <h1>Nguyễn Văn Toàn</h1>
+        <span>Full Stack Developer</span>
+      </div>
+      <!-- <div class="avt">
+        <img
+          src="./images/default-avatar.webp"
+          alt="avatar"
+          class="avt-default"
+        />
+      </div> -->
+    </section>
+    <!-- Navbar -->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-sm navbar-nav py-0">
+        <ul class="list-unstyled navbar-nav mb-0">
+          <li class="nav-item border-start border-end border-2">
+            <a class="nav-link" href="digital-cv.html" target="_blank"
+              ><i class="icon icon-user"></i>Thông tin</a
+            >
+          </li>
+          <li class="nav-item border-end border-2">
+            <a class="nav-link" href="digital-cv.html" target="_blank"
+              ><i class="icon icon-doc-text-inv"></i>Lý lịch</a
+            >
+          </li>
+          <li class="nav-item border-end border-2">
+            <div class="text-nav">
+              <h1>Nguyễn Văn Toàn</h1>
+              <span>Full Stack Developer</span>
+            </div>
+          </li>
+          <li class="nav-item border-end border-2">
+            <a class="nav-link" href="digital-cv.html" target="_blank"
+              ><i class="icon icon-mail-alt"></i>Chứng chỉ</a
+            >
+          </li>
+          <li class="nav-item border-end border-2">
+            <a class="nav-link" href="digital-cv.html" target="_blank"
+              ><i class="project icon icon-star-1"></i>Dự Án</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <!-- Thông tin cá nhân -->
+    <section id="about" class="bg-grey">
+      <div class="container-fluid">
+        <div class="personal-info-grid">
+          <!-- Muc tieu nghe nghiep -->
+          <div id="target">
+            <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+            <p>
+              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+              của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+              <b>Fullstack Developer</b> ở một tập đoàn công nghệ lớn, có thể
+              vận dụng những kiến thức đã được học và được trau dồi trong thời
+              gian đi làm. Phát triển những ứng dụng mạnh mẽ và hiệu quả cho
+              ngành công nghiệp 4.0. Trong tương lai hướng tới mục tiêu trở
+              thành chuyên gia trong lĩnh vực công nghệ.
+            </p>
+          </div>
+          <!-- Thong tin ca nhan -->
+          <div id="personal-info">
+            <h1 class="section-title">Thông tin cá nhân</h1>
+            <ul class="mt-40 info" style="list-style: none; padding: 0">
+              <li><span>Giới tính</span> : Nam</li>
+              <li><span>Ngày sinh</span> : 20/11/1995</li>
+              <li><span>Điện thoại</span> : (+84) 123456789</li>
+              <li><span>Email</span> : abc@gmail.com</li>
+              <li><span>Địa chỉ</span> : Thủ Đức, HCM</li>
+              <li><span>Website</span> : https://abc.tech</li>
+            </ul>
+            <div class="icon-infor">
+              <i class="icon-twitter"></i>
+              <i class="icon-facebook"></i>
+              <i class="icon-gplus"></i>
+              <i class="icon-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Thông tin nghề nghiệp -->
+    <section id="job-info">
+      <div class="container-fluid job-grid">
+        <!-- Kinh nghiem -->
+        <div class="job-box experience">
+          <div class="job-title">
+            <h1>Kinh nghiệm</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-toolbox" style="font-size: 38px"></i>
+          </div>
+          <div class="job-content">
+            <div class="content" style="margin-bottom: 20px">
+              <h3>Coordinator and solution engineer-Công ty Autologiq Tech</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>01/2021-<span class="now">Hiện Tại</span></span>
+              </div>
+              <div style="font-size: 18px">
+                <p>
+                  -Kết nối với các nhà cung cấp giải pháp phần cứng, phần mềm
+                  trong và ngoài nước.
+                </p>
+                <p>
+                  -Phân tích, cung cấp các giải pháp cho nhà máy thông minh và
+                  công nghệ 4.0
+                </p>
+                <p>
+                  -Triển khai, điều phối và vận hành các dự án robot, phần mềm,
+                  tự động hóa
+                </p>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Project engineer-Công ty Thaco Kia</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>07/2018 - 12/ 2020</span>
+              </div>
+              <div style="font-size: 18px">
+                <p>-Lập kế hoạch, triển khai dự án các dòng xe mới.</p>
+                <p>
+                  -Nghiên cứu cải tiến và kết hợp với các nhà cung cấp bên ngoài
+                  tìm giải pháp cho nhà máy ô tô thông minh: Robot, hệ thống
+                  phần mềm quản lý SAP, MES...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hoc van -->
+        <div class="job-box education">
+          <div class="job-title">
+            <h1>Học vấn</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-pencil" style="font-size: 38px"></i>
+          </div>
+          <div class="job-content">
+            <div class="content" style="margin-bottom: 20px">
+              <h3>FUNiX</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>09/2023-02/2024</span>
+              </div>
+              <div style="font-size: 18px">
+                <p>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</p>
+                <p>GPA: 9 / 10</p>
+              </div>
+            </div>
+            <div class="content" style="margin-bottom: 20px">
+              <h3>Kỹ sư đại học Bách Khoa-Đại học Đà Nẵng</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>08/2013-07/2018</span>
+              </div>
+              <div style="font-size: 18px">
+                <p>Chuyên ngành: Cơ khí động lực.</p>
+                <p>GPA: 3.2 / 4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hoat dong -->
+        <div class="job-box activity">
+          <div class="job-title">
+            <h1>Hoạt động</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-toolbox" style="font-size: 38px"></i>
+          </div>
+          <div class="job-content">
+            <div class="content" style="margin-bottom: 20px">
+              <h3>Nhà máy lắp ráp ô tô Trường Hải</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>03/2019 - 07/ 2019</span>
+              </div>
+              <div style="font-size: 18px">
+                <p>Giải kỹ sư trẻ có nhiều sáng kiến kỹ thuậ</p>
+                <p>
+                  Đề tài: Thiết kế tích hợp tay robot và phần mềm quản lý súng
+                  siết lực.
+                </p>
+                <p></p>
+              </div>
+            </div>
+            <div class="content" style="margin-bottom: 20px">
+              <h3>Khóa đào tạo về phần mềm quản lý sản xuất tại Ấn Độ</h3>
+              <div style="margin-top: 10px; margin-bottom: 20px">
+                <span>05/2020 - 08/ 2020</span>
+              </div>
+              <div style="font-size: 18px">
+                <p>Kỹ sư</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- So thich -->
+        <div class="job-box2 interest">
+          <div class="job-title">
+            <h1>Sở thích</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-telescope" style="font-size: 38px"></i>
+          </div>
+          <div class="job-icon-content">
+            <div class="icon-icon">
+              <i class="ic-megaphone" style="font-size: 18px"></i>
+            </div>
+            <div class="icon-icon">
+              <i class="ic-strategy" style="font-size: 18px"></i>
+            </div>
+            <div class="icon-icon">
+              <i class="ic-hotairballoon" style="font-size: 18px"></i>
+            </div>
+            <div class="icon-icon">
+              <i class="ic-basket" style="font-size: 18px"></i>
+            </div>
+          </div>
+          <div class="ic-content" style="font-size: 12px">
+            Âm nhạc &nbsp; &nbsp; Chơi game &nbsp; &nbsp; &nbsp; Du lịch &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; Nấu ăn &nbsp;
+          </div>
+        </div>
+        <!-- Ngon ngu -->
+        <div class="job-box2 language">
+          <div class="job-title">
+            <h1>Ngôn ngữ</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-mic" style="font-size: 38px"></i>
+          </div>
+          <div class="job-content">
+            <div style="margin-bottom: 24px">
+              <p>Tiếng Anh - IELTS 7.0</p>
+              <span class="good"></span> <span class="good"></span>
+              <span class="bad"></span>
+            </div>
+            <div>
+              <p>Tiếng Nhật-JLPT N5</p>
+              <span class="good"></span> <span class="bad"></span>
+              <span class="bad"></span>
+            </div>
+          </div>
+        </div>
+        <!-- Ky nang -->
+        <div class="job-box2 skill">
+          <div class="job-title">
+            <h1>Kỹ năng</h1>
+          </div>
+          <div class="job-icon">
+            <i class="ic-tools-2" style="font-size: 38px"></i>
+          </div>
+          <div class="job-content">
+            <div style="margin-bottom: 24px">
+              <p>HTML/CSS:Fundamental</p>
+              <span class="good"></span> <span class="bad"></span>
+              <span class="bad"></span>
+            </div>
+            <div style="margin-bottom: 24px">
+              <p>Javascript: Intermediate</p>
+              <span class="good"></span> <span class="good"></span>
+              <span class="bad"></span>
+            </div>
+            <div style="margin-bottom: 24px">
+              <p>NodeJs: Intermediate</p>
+              <span class="good"></span> <span class="good"></span>
+              <span class="bad"></span>
+            </div>
+            <div style="margin-bottom: 24px">
+              <p>Bootstrap 5:Fundamental</p>
+              <span class="good"></span> <span class="bad"></span>
+              <span class="bad"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chứng chỉ giải thưởng -->
+    <section id="certificate" class="bg-grey">
+      <div class="container-fluid">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="cer-grid">
+          <div class="cer-items">
+            <img
+              class="img-cer"
+              src="./images/Cert_WEB.png"
+              alt="web certificate"
+            />
+            <div class="cer-content">
+              <h5 style="margin: 10px 0">CHỨNG CHỈ LẬP TRÌNH WEB - FUNIX</h5>
+              <div style="font-size: 14px">
+                <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                <p>-GPA:8.6</p>
+              </div>
+            </div>
+          </div>
+          <div class="cer-items javascript">
+            <img
+              class="img-cer"
+              src="./images/Cert_PRF.png"
+              alt="Javascript certificate"
+            />
+            <div class="cer-content">
+              <h5 style="margin: 10px 0">
+                CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNIX
+              </h5>
+              <div style="font-size: 14px">
+                <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                <p>-GPA:8.9</p>
+              </div>
+            </div>
+          </div>
+          <div class="cer-items database">
+            <img
+              class="img-cer"
+              src="./images/Cert_DBI.png"
+              alt="database certificate"
+            />
+            <div class="cer-content">
+              <h5 style="margin: 10px 0">
+                CHỨNG CHỈ THIẾT KẾ DATABASE <br />
+                - FUNIX
+              </h5>
+              <div style="font-size: 14px">
+                <p>-Chứng chỉ thuộc chương trình CCDN</p>
+                <p>-GPA:8.0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dự án -->
+    <section id="project">
+      <div class="container-fluid">
+        <h1 class="section-title">Dự án</h1>
+        <div class="project-grid">
+          <!-- Du an CV ca nhan -->
+          <div class="project-flex">
+            <img src="./images/project_1.png" alt="project 1" width="100%" />
+            <div class="project-title">CV CÁ NHÂN</div>
+            <div class="project-content">
+              <div>
+                <span class="time" style="margin-right: 20px">2023</span>
+              </div>
+              <div class="d-flex flex-icon">
+                <div class="project-icon">
+                  <i class="icon-user-1"></i>
+                  <span style="margin-left: 4px; margin-right: 20px"
+                    >FUNIX</span
+                  >
+                </div>
+                <div class="project-icon">
+                  <i class="icon-lamp"></i>
+                  <span style="margin-left: 4px">Developer</span>
+                </div>
+              </div>
+            </div>
+            <!-- Table -->
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                    như kỹ năng nghề nghiệp.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="row1" style="padding-bottom: 32px">Công nghệ</td>
+                  <td class="row1" style="padding-bottom: 32px">-HTML, CSS</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Du an phan mem quan ly san xuat -->
+          <div class="project-flex">
+            <img src="./images/project_2.png" alt="project 2" width="100%" />
+            <div class="project-title">PHẦN MỀM QUẢN LÝ SẢN XUẤT</div>
+            <div class="project-content">
+              <div>
+                <span class="time" style="margin-right: 20px">2023</span>
+              </div>
+              <div class="d-flex flex-icon">
+                <div class="project-icon">
+                  <i class="icon-user-1"></i>
+                  <span style="margin-left: 4px; margin-right: 20px"
+                    >Autologiq</span
+                  >
+                </div>
+                <div class="project-icon">
+                  <i class="icon-lamp"></i>
+                  <span style="margin-left: 4px">Engineer</span>
+                </div>
+              </div>
+            </div>
+            <!-- Table -->
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Ứng dụng web nhận dữ liệu từ máy móc, PLC , các thiết bị đo
+                    sản phẩm đầu ra... tính toán KPI và theo dõi năng xuất sản
+                    xuất ở các nhà máy.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    Đề xuất giải pháp phần mềm, tính năng và phương thức kết nối
+                    hệ thống.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Công nghệ</td>
+                  <td>HTML, CSS, JAVASCRIPT, NodeJS, REACT, MONGODB, MYSQL.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Du an phan mem quan ly thiet bi sung siet luc -->
+          <div class="project-flex">
+            <img src="./images/project_3.png" alt="project 3" width="100%" />
+            <div class="project-title">
+              PHẦN MỀM QUẢN LÝ THIẾT BỊ SÚNG SIẾT LỰC
+            </div>
+            <div class="project-content">
+              <div>
+                <span class="time" style="margin-right: 20px">2023</span>
+              </div>
+              <div class="d-flex flex-icon">
+                <div class="project-icon">
+                  <i class="icon-user-1"></i>
+                  <span style="margin-left: 4px; margin-right: 20px"
+                    >Autologiq</span
+                  >
+                </div>
+                <div class="project-icon">
+                  <i class="icon-lamp"></i>
+                  <span style="margin-left: 4px">Engineer</span>
+                </div>
+              </div>
+            </div>
+            <!-- Table -->
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Mô tả</td>
+                  <td>
+                    Ứng dụng web và app giúp quản lý , thu thập dữ liệu từ thiết
+                    bị, thiết lập quy trình chống sai lỗi và quản lý data trên
+                    MES.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Nhiệm vụ</td>
+                  <td>
+                    Đề xuất giải pháp phần mềm, tính năng và phương thức kết nối
+                    hệ thống.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="row3">Công nghệ</td>
+                  <td class="row3">
+                    HTML, CSS, JAVASCRIPT, NodeJS, REACT, MYSQL
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer" class="bg-grey">
+      <div class="container-fluid">
+        <div class="footer-content">
+          <a class="link" href="#"
+            ><i class="icon icon-facebook-circled" style="font-size: 28px"></i
+            >Facebook</a
+          >
+          <a class="link" href="#"
+            ><i class="icon icon-linkedin-circled" style="font-size: 28px"></i
+            >Linkedin</a
+          >
+          <a class="link" href="#"
+            ><i class="icon icon-github-circled" style="font-size: 28px"></i
+            >Github</a
+          >
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

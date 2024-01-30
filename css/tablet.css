@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+  /* Navbar */
+  .text-nav {
+    display: none;
+  }
+  /* Thong tin ca nhan */
+
+  .section-title {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  .personal-info-grid {
+    gap: 30px;
+  }
+
+  /* Thong tin nghe nghiep */
+  .job-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+  .experience {
+    padding-bottom: 195px;
+  }
+  .education {
+    padding-bottom: 565px;
+  }
+  .activity {
+    padding-bottom: 100px;
+  }
+  .interest {
+    padding-bottom: 542px;
+  }
+
+  /* Chung chi-giai thuong */
+  .cer-items {
+    display: block;
+  }
+  .cer-grid {
+    gap: 15px;
+  }
+  .cer-content > h5 {
+    font-size: 20px;
+  }
+
+  /* Dự án */
+  .project-grid {
+    column-gap: 30px;
+  }
+  .project-icon {
+    display: flex;
+  }
+  .flex-icon {
+    flex-direction: column;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  table {
+    font-size: 14px;
+  }
+  .row1 {
+    padding-bottom: 125px !important;
+  }
+  .row3 {
+    padding-bottom: 28px !important;
+  }
+}

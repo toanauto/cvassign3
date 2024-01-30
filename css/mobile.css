@@ -1,0 +1,67 @@
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar-nav .nav-item {
+    border: none !important; /* Hidden border on mobile screen */
+  }
+  .navbar {
+    align-items: start !important; /* Override bootstrap style*/
+  }
+  #nav-bar a:link {
+    padding-bottom: 0; /* reduce padding of navbar element when use mobile */
+  }
+  #nav-bar {
+    margin-bottom: 20px;
+  }
+
+  /* Thong tin ca nhan */
+
+  .personal-info-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Thong tin nghe nghiep */
+  .job-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .education {
+    padding-bottom: 30px;
+  }
+  .activity {
+    padding-bottom: 30px;
+  }
+  .interest {
+    padding-bottom: 30px;
+  }
+
+  /* Chung chi-giai thuong */
+  .cer-grid {
+    grid-template-columns: 1fr;
+  }
+  .javascript {
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+    padding-top: 30px;
+  }
+
+  /* Dự án */
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .project-content {
+    flex-direction: column;
+  }
+
+  /* Footer */
+  .link {
+    visibility: hidden;
+  }
+  .link > i {
+    visibility: visible;
+  }
+  .footer-content {
+    justify-content: space-between;
+  }
+}
